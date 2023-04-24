@@ -33,29 +33,29 @@ import product31 from "./images/snacks6.jpg";
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "IPhone",
-    price: 999.0,
+    productName: "Argentina Meat Loaf",
+    price: 46.0,
     category: "Canned Goods",
     productImage: product1,
   },
   {
     id: 2,
-    productName: "Macbook Pro 2022 (M1)",
-    price: 1999.0,
+    productName: "Nestea",
+    price: 12.0,
     category: "Beverages",
     productImage: product2,
   },
   {
     id: 3,
-    productName: "Cannon M50 Camera",
-    price: 699.0,
+    productName: "Safeguard White",
+    price: 122.0,
     category: "Personal Care",
     productImage: product3,
   },
   {
     id: 4,
     productName: "Crayola 16 Crayons",
-    price: 228.0,
+    price: 35.0,
     category: "Other",
     productImage: product4,
   },
@@ -69,7 +69,7 @@ export const PRODUCTS = [
   {
     id: 6,
     productName: "555 Tuna Flakes in Oil",
-    price: 19.99,
+    price: 32.99,
     category: "Canned Goods",
     productImage: product6,
   },
@@ -77,7 +77,7 @@ export const PRODUCTS = [
   {
     id: 7,
     productName: "Pure Foods Corned Beef",
-    price: 19.99,
+    price: 65.25,
     category: "Canned Goods",
     productImage: product7,
   },
@@ -85,7 +85,7 @@ export const PRODUCTS = [
   {
     id: 8,
     productName: "Ligo Sardines In Tomato Sauce",
-    price: 19.99,
+    price: 31.35,
     category: "Canned Goods",
     productImage: product8,
   },
@@ -93,7 +93,7 @@ export const PRODUCTS = [
   {
     id: 9,
     productName: "Maling Luncheon Meat",
-    price: 19.99,
+    price: 63.99,
     category: "Canned Goods",
     productImage: product9,
   },
@@ -101,7 +101,7 @@ export const PRODUCTS = [
   {
     id: 10,
     productName: "Tang Orange",
-    price: 19.99,
+    price: 11.99,
     category: "Beverages",
     productImage: product10,
   },
@@ -109,7 +109,7 @@ export const PRODUCTS = [
   {
     id: 11,
     productName: "Nescafe 3 in 1",
-    price: 19.99,
+    price: 29.99,
     category: "Beverages",
     productImage: product11,
   },
@@ -117,7 +117,7 @@ export const PRODUCTS = [
   {
     id: 12,
     productName: "Milo",
-    price: 19.99,
+    price: 35.99,
     category: "Beverages",
     productImage: product12,
   },
@@ -125,7 +125,7 @@ export const PRODUCTS = [
   {
     id: 13,
     productName: "San Mig Light Beer",
-    price: 19.99,
+    price: 49.99,
     category: "Beverages",
     productImage: product13,
   },
@@ -133,7 +133,7 @@ export const PRODUCTS = [
   {
     id: 14,
     productName: "Clear Shampoo",
-    price: 19.99,
+    price: 75.60,
     category: "Personal Care",
     productImage: product14,
   },
@@ -141,7 +141,7 @@ export const PRODUCTS = [
   {
     id: 15,
     productName: "Dove Pink",
-    price: 19.99,
+    price: 95.85,
     category: "Personal Care",
     productImage: product15,
   },
@@ -149,7 +149,7 @@ export const PRODUCTS = [
   {
     id: 16,
     productName: "Rexona Original",
-    price: 19.99,
+    price: 120.25,
     category: "Personal Care",
     productImage: product16,
   },
@@ -157,7 +157,7 @@ export const PRODUCTS = [
   {
     id: 17,
     productName: "Colgate",
-    price: 19.99,
+    price: 69.99,
     category: "Personal Care",
     productImage: product17,
   },
@@ -165,7 +165,7 @@ export const PRODUCTS = [
   {
     id: 18,
     productName: "Pure Foods Chicken Nuggets",
-    price: 19.99,
+    price: 105.99,
     category: "Frozen",
     productImage: product18,
   },
@@ -173,7 +173,7 @@ export const PRODUCTS = [
   {
     id: 19,
     productName: "Magnolia Whole Chicken",
-    price: 19.99,
+    price: 225.65,
     category: "Frozen",
     productImage: product19,
   },
@@ -181,7 +181,7 @@ export const PRODUCTS = [
   {
     id: 20,
     productName: "Tender Juicy Hotdog",
-    price: 19.99,
+    price: 185.99,
     category: "Frozen",
     productImage: product20,
   },
@@ -189,7 +189,7 @@ export const PRODUCTS = [
   {
     id: 21,
     productName: "Pure Foods Fiesta Ham",
-    price: 19.99,
+    price: 165.75,
     category: "Frozen",
     productImage: product21,
   },
@@ -197,7 +197,7 @@ export const PRODUCTS = [
   {
     id: 22,
     productName: "Pure Foods Chicken Ham",
-    price: 19.99,
+    price: 165.99,
     category: "Frozen",
     productImage: product22,
   },
@@ -205,7 +205,7 @@ export const PRODUCTS = [
   {
     id: 23,
     productName: "Datu Puti Vinegar",
-    price: 19.99,
+    price: 85.99,
     category: "Condiments",
     productImage: product23,
   },
@@ -213,7 +213,7 @@ export const PRODUCTS = [
   {
     id: 24,
     productName: "UFC Ketchup",
-    price: 19.99,
+    price: 65.99,
     category: "Condiments",
     productImage: product24,
   },
@@ -221,7 +221,7 @@ export const PRODUCTS = [
   {
     id: 25,
     productName: "Datu Puti Toyo",
-    price: 19.99,
+    price: 81.99,
     category: "Condiments",
     productImage: product25,
   },
@@ -229,7 +229,7 @@ export const PRODUCTS = [
   {
     id: 26,
     productName: "Piattos Cheese",
-    price: 19.99,
+    price: 15.25,
     category: "Snacks",
     productImage: product26,
   },
@@ -237,7 +237,7 @@ export const PRODUCTS = [
   {
     id: 27,
     productName: "V cut Spicy Barbecue Flavor",
-    price: 19.99,
+    price: 22.35,
     category: "Snacks",
     productImage: product27,
   },
@@ -245,7 +245,7 @@ export const PRODUCTS = [
   {
     id: 28,
     productName: "Nagaraya Hot & Spicy",
-    price: 19.99,
+    price: 13.99,
     category: "Snacks",
     productImage: product28,
   },
@@ -253,7 +253,7 @@ export const PRODUCTS = [
   {
     id: 29,
     productName: "Hansel Crackers",
-    price: 19.99,
+    price: 35.99,
     category: "Snacks",
     productImage: product29,
   },
@@ -261,7 +261,7 @@ export const PRODUCTS = [
   {
     id: 30,
     productName: "Oreo",
-    price: 19.99,
+    price: 45.99,
     category: "Snacks",
     productImage: product30,
   },
@@ -269,7 +269,7 @@ export const PRODUCTS = [
   {
     id: 31,
     productName: "Fudgebar",
-    price: 19.99,
+    price: 34.25,
     category: "Snacks",
     productImage: product31,
   },

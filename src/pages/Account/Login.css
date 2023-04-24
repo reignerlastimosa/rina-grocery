@@ -23,6 +23,7 @@ input{
     width:85%;
     height:30px;
 }
+
 button{
     width:85%;
     height:35px;
@@ -70,6 +71,13 @@ button{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.changePass button{
+    background-color: green;
+    border:none;
+    border-radius: 5px;
+    color:white;
 }
 
 .loginCart{

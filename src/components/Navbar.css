@@ -1,6 +1,6 @@
 .navbar {
     
-    height: 120px;
+    height: 120px !important;
     background-color: rgb(4, 209, 76);
     display:flex;
     align-items: center;
@@ -50,7 +50,7 @@
 
   span{
 
-    margin-left:25px;
+    
     font-size:22px;
   }
 
@@ -106,7 +106,30 @@
     color:green;
   }
   
+  @media screen and (max-width: 760px) {
+    .navbar{
+      
+    }
+   
+    .links a {
+      text-decoration: none;
+      color: white;
+      
+      font-size: 25px;
+    }
+  
+    
+    
 
+    span{
+      font-size:12px;
+    }
+
+    .links a{
+      font-size:16px;
+    }
+
+  }
   
 
   

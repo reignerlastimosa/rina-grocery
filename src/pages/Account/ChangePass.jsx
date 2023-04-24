@@ -30,9 +30,9 @@ export const ChangePass = ({existingAccount}) =>{
         <div className="changePass">
             <h3>Change Password</h3>
             <label>Input Previous password</label>
-             <input type="password" name="prevPass" value={formData.prevPass} onChange={handleChangePass} /> <br/>
+             <input type="password" name="prevPass" value={formData.prevPass} onChange={handleChangePass} placeholder="Previous Password"/> <br/>
              <label>Input New Password</label>
-            <input type="password" name="newPass" value={formData.newPass} onChange={handleChangePass} />
+            <input type="password" name="newPass" value={formData.newPass} onChange={handleChangePass} placeholder="New Password"/>
             <br/>
 
             <button onClick={clickChangePass}>Change</button>

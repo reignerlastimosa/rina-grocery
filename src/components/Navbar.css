@@ -1,0 +1,112 @@
+.navbar {
+    
+    height: 120px;
+    background-color: rgb(4, 209, 76);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+  }
+
+  .navbar input{
+    
+   outline: none;
+   padding:10px 5px 10px 35px;
+   font-size:16px;
+  }
+
+
+  .input-wrapper {
+    position: relative;
+    width:70% !important;
+  }
+  
+  .left-button {
+    position: absolute;
+    left: 0;
+    top:6px;
+    padding: 8px;
+    background:none;
+    border: none;
+    
+  }
+  
+
+  
+  .links {
+    width:70%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    
+    font-size: 25px;
+  }
+
+  span{
+
+    margin-left:25px;
+    font-size:22px;
+  }
+
+  .navbar p{
+    cursor:pointer;
+  }
+
+  .showLogout{
+    position:absolute;
+    left:75%;
+    top:95%;
+    background-color: rgb(4, 209, 76);
+    border-radius: 5px;
+    color:white;
+  }
+
+  .showLogout ul{
+    margin:0;
+    padding:0;
+  }
+
+  .showLogout ul li{
+   display:block;
+    
+    padding:10px;
+    
+  }
+
+  .showLogout li:hover{
+    background-color: rgb(0, 95, 0);
+    cursor:pointer;
+    transition:0.3s;
+  }
+
+  .navbar a:hover{
+    color:green;
+  }
+
+
+  .logo{
+   
+    font-size:40px;
+  }
+
+  .rina{
+    font-weight: bold;
+  }
+
+  .navbar p{
+    color:white;
+  }
+  .navbar p:hover{
+    color:green;
+  }
+  
+
+  
+
+  

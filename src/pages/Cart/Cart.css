@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
   
  
@@ -36,6 +37,11 @@
     width:40px;
     height:35px;
   }
+
+
+  .checkout{
+    margin-bottom:150px;
+  }
   
   .checkout button {
     width: 150px;
@@ -51,8 +57,14 @@
  
 
   .checkoutPage{
-    
+   
     width:50%;
     height:400px;
     margin:auto;
+    margin-top:200px;
+    text-align: center;
+  }
+
+  .time{
+    color:green;
   }

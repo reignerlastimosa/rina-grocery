@@ -1,7 +1,7 @@
 .login{
     display:flex;
     width:100%;
-    height:700px;
+    height:550px;
     background-color: rgb(230, 230, 230);
     justify-content: center;
     align-items: center;
@@ -111,4 +111,36 @@ button{
 .login .logo{
     color:green;
     font-size:50px;
+}
+
+
+@media screen and (max-width: 760px) {
+
+
+
+.login-content{
+    display:none;
+}
+
+.login-form{
+   margin:10px;
+}
+
+.changePass{
+    font-size: 12px;
+  width:70%;
+}
+
+.loginCart{
+    margin-top:100px;
+}
+
+.loginCart button{
+ 
+    width:60%;
+    
+}
+
+
+
 }

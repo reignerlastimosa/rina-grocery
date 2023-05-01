@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation  } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
 import {MagnifyingGlass} from "phosphor-react";
 import { useState, useEffect } from "react";
@@ -8,11 +8,14 @@ import "./Navbar.css";
 export const Navbar = ({setSearchQuery, login, setLogin, existingAccount}) => {
 
   const [showLogOut, setShowLogOut] = useState(false);
+  const location = useLocation();
+
+  const showSearchInput = location.pathname !== "/login" && location.pathname !== "/account" && location.pathname !== "/password" && location.pathname !=="/cart" && location.pathname !=="/checkout";
 
   const handleLogOut = ()=>{
     
     localStorage.removeItem('expirationTime');
-    window.location.reload();
+    window.location.href="/";
     
   }
 
@@ -28,18 +31,26 @@ export const Navbar = ({setSearchQuery, login, setLogin, existingAccount}) => {
       
       <div className="links">
         <Link to="/" className="rina"> <span className="logo"> &#8506;</span>     RINA <br/><span>Grocery Store</span> </Link>
+
+        {showSearchInput && (
         <div class="input-wrapper">
           <MagnifyingGlass class="left-button" size={20} />
           <input type="text" placeholder="Type to search..."  onChange={(e)=>setSearchQuery(e.target.value)}/>
         </div>
+        )}
     {
       !login ?
+      <div className="navbarFunction">
       <Link to="/login">
       Login
-    </Link>:
+    </Link>
+    <Link to="/account">
+        <ShoppingCart size={32} />
+      </Link>
+    </div>:
 
+  <div className="navbarFunction"> 
     <p onClick={()=> setShowLogOut(!showLogOut)}> @{existingAccount.username}  </p>
-    }
     { 
     !showLogOut ?
       ""
@@ -55,17 +66,13 @@ export const Navbar = ({setSearchQuery, login, setLogin, existingAccount}) => {
         </ul>
       </div>
     }
-        
-      {
-        login ?
-        <Link to="/cart">
+    <Link to="/cart">
           <ShoppingCart size={32} />
         </Link>
-        :
-        <Link to="/account">
-        <ShoppingCart size={32} />
-      </Link>
-      }
+    </div>
+    }
+   
+      
         
       </div>
     </div>

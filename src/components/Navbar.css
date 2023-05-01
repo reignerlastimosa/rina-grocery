@@ -9,7 +9,7 @@
   }
 
   .navbar input{
-    
+    width:100%;
    outline: none;
    padding:10px 5px 10px 35px;
    font-size:16px;
@@ -18,7 +18,10 @@
 
   .input-wrapper {
     position: relative;
-    width:70% !important;
+    width:60% !important;
+    display:flex;
+   
+    
   }
   
   .left-button {
@@ -35,7 +38,7 @@
   
   .links {
     width:70%;
-  
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -60,11 +63,12 @@
 
   .showLogout{
     position:absolute;
-    left:75%;
-    top:95%;
+   
+    top:157%;
     background-color: rgb(4, 209, 76);
     border-radius: 5px;
     color:white;
+    z-index: 100;
   }
 
   .showLogout ul{
@@ -105,10 +109,36 @@
   .navbar p:hover{
     color:green;
   }
+
+  .navbarFunction{
+   
+    display:flex;
+    width:12%;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+  }
   
   @media screen and (max-width: 760px) {
-    .navbar{
+    .input-wrapper{
+      position:absolute;
+      top:120%;
+    }
+
+    .navbarFunction{
+   
+     
+      width:18%;
+     
+    }
+
+    .navbar input{
       
+     font-size:12px;
+    }
+
+    .links{
+      width:100%;
     }
    
     .links a {
@@ -117,9 +147,8 @@
       
       font-size: 25px;
     }
-  
-    
-    
+
+   
 
     span{
       font-size:12px;
@@ -130,6 +159,6 @@
     }
 
   }
-  
 
+ 
   
